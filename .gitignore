@@ -1,0 +1,31 @@
+   # Ignorer les environnements virtuels
+   venv/
+   env/
+   .venv/
+   ENV/
+
+   # Ignorer les fichiers Rasa générés
+   models/
+   *.tar.gz
+
+   # Ignorer les fichiers de données sensibles
+   data/*.csv
+   data/*.json
+
+   # Ignorer les fichiers de configuration sensibles
+   credentials.yml
+   endpoints.yml
+   config.yml
+
+   # Ignorer les fichiers de l'IDE
+   .idea/
+   .vscode/
+
+   # Ignorer les fichiers temporaires
+   *.tmp
+   *.bak
+   *.swp
+   *~
+
+   # Ignorer les logs
+   *.log
