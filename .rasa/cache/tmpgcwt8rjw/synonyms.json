@@ -1,0 +1,8 @@
+{
+  "employees": "employees",
+  "materials": "materials",
+  "transactions": "transactions",
+  "urgent": "urgent",
+  "high_value": "high_value",
+  "standard": "standard"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "entity_type",
+    "pattern": "employees"
+  },
+  {
+    "name": "entity_type",
+    "pattern": "material"
+  },
+  {
+    "name": "entity_type",
+    "pattern": "materials"
+  },
+  {
+    "name": "entity_type",
+    "pattern": "staff"
+  },
+  {
+    "name": "entity_type",
+    "pattern": "transactions"
+  },
+  {
+    "name": "entity_type",
+    "pattern": "workers"
+  },
+  {
+    "name": "type",
+    "pattern": "high_value"
+  },
+  {
+    "name": "type",
+    "pattern": "standard"
+  },
+  {
+    "name": "type",
+    "pattern": "urgent"
+  }
+]

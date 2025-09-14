@@ -1,0 +1,51 @@
+version: "3.1"
+intents:
+  - greet
+  - count_entities
+  - explain_type
+  - current_date
+  - goodbye
+  - bot_challenge
+  - mood_great
+  - mood_unhappy
+  - affirm
+  - deny
+entities:
+  - entity_type
+  - type
+actions:
+  - action_count_entities
+  - action_explain_type
+  - action_get_date
+responses:
+  utter_greet:
+    - text: "Hey there!"
+  utter_count_entities:
+    - text: "There are {count} {entity_type}."
+  utter_explain_type:
+    - text: "The '{type}' type means {explanation}."
+  utter_current_date:
+    - text: "Today is {date}."
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_iamabot:
+    - text: "I am a bot, created to assist you with employee, material, and transaction queries!"
+  utter_happy:
+    - text: "Great to hear you're happy! How can I assist you today?"
+  utter_cheer_up:
+    - text: "Oh, don't worry, things will get better! Want to check some employee or material stats?"
+  utter_did_that_help:
+    - text: "Did that cheer you up a bit?"
+slots:
+  entity_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: entity_type
+  type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: type
